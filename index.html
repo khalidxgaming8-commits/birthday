@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Happy 2nd Anniversary, Abeerah</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="bg-glow" aria-hidden="true"></div>
+  <div class="hearts" id="hearts" aria-hidden="true"></div>
+
+  <main class="wrap">
+    <header class="hero" role="banner">
+      <p class="badge">2 Years • 24 Months • Infinite Memories</p>
+      <h1 class="title">Happy 2nd Anniversary</h1>
+      <h2 class="name">Abeerah</h2>
+      <p class="subtitle">Every day with you feels like a soft pink sunrise.</p>
+
+      <div class="cta-row">
+        <button class="btn primary" id="revealBtn" type="button">Open your love note</button>
+        <button class="btn" id="celebrateBtn" type="button">Celebrate</button>
+      </div>
+
+      <div class="meta">
+        <div class="meta-card">
+          <div class="meta-label">Since</div>
+          <div class="meta-value" id="sinceText">-</div>
+        </div>
+        <div class="meta-card">
+          <div class="meta-label">Together for</div>
+          <div class="meta-value" id="daysText">—</div>
+        </div>
+        <div class="meta-card">
+          <div class="meta-label">Heartbeats</div>
+          <div class="meta-value" id="beatsText">∞</div>
+        </div>
+      </div>
+    </header>
+
+    <section class="card" aria-labelledby="noteTitle">
+      <div class="card-head">
+        <h3 id="noteTitle">A little note for you</h3>
+        <p class="hint">Tap “Open your love note” to reveal it.</p>
+      </div>
+
+      <div class="note" id="note" hidden>
+        <p>
+          Dear <strong>Abeerah</strong>,
+        </p>
+        <p>
+          Happy 2nd anniversary, my LADDO....i know ke abhi pure 2 saal nhi hue hain lkn mjhse tmhe wish krne k liye rha hi nhi jarha tha kya krun toh is liye mn yeh abhi hi bhej rha hun tmhe boht mehnat lgi hai toh puri parhna mjhse galti hui hai mn janta hun lkn ab tm dekho na kitna time guzar gya h is liye past ko yd krke apna present kyun khrb krna hai shehzadii mne tmhri birthday ke liye bhi boht kuch plan kr rkha hai toh please mna nhi krna kisi bhi cheez se bas mn chahta hun ke tm hamesha khush rho aur jo ho chuka hai usse yaad na kro kyuki ab usse bdla nhi ja skta so just chill tm apne aur mere bare mn socho bs k mn tmse kitna pyaar krta hun abhi sirf bol rha hun toh tmhe yaqeen nhi arha jb mn apni sab baatein sach krdunga tb yaqeen krogi jab tak mn dur hun please apna boht sara khyall rkho aur ab mn sachi mn promise krta hun k koi bhi purani baat nhi nikalunga tm jese kahogi mn wese krunga jabse tm mjhe mili ho mn boht khush hun ab mohabbat mn mushkilein toh aati rehti hain lkn iska mtlb yeh thodi hota hai ke hum give up krden sab chhor ke gussa hoke beth jyn bas tm meri baat man jao pleasee aur gussa krna kum krdo mne apni yeh addat khtm krdi mjhe bhi boht ata tha tm janti lkn ab dekho mn zra bhi nhi krta toh tm bhi please control krna sikh jao kyuki health pehle hoti hai aur mjhe tmhri health ki bht fikr hai aur tm important bhi boht ho...
+        </p>
+        <p>
+          I love you more than all the blue skies in the world.
+        </p>
+        <p class="sign">Forever yours</p>
+      </div>
+
+      <div class="timeline" aria-label="Sweet moments">
+        <div class="pill">Your smile</div>
+        <div class="pill">Our talks</div>
+        <div class="pill">Small surprises</div>
+        <div class="pill">Big dreams</div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <p>Made with love • <span id="year"></span></p>
+    </footer>
+  </main>
+
+  <canvas id="confetti" class="confetti" aria-hidden="true"></canvas>
+
+  <script src="script.js"></script>
+</body>
+</html>
