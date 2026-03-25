@@ -1,0 +1,9 @@
+PS C:\Users\HP\Desktop\birthday> git add. 
+git: 'add.' is not a git command. See 'git --help'.
+
+The most similar command is
+        add
+PS C:\Users\HP\Desktop\birthday> git commit -m "changes"
+fatal: not a git repository (or any of the parent directories): .git
+PS C:\Users\HP\Desktop\birthday> git push origin main
+fatal: not a git repository (or any of the parent directories): .git
